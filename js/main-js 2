@@ -1,0 +1,19 @@
+'use strict';
+
+const D6_1 = '---------\n|       |\n|   *   |\n|       |\n---------\n';
+const D6_2 = '---------\n| *     |\n|       |\n|     * |\n---------\n';
+const D6_3 = '---------\n| *     |\n|   *   |\n|     * |\n---------\n';
+const D6_4 = '---------\n| *   * |\n|       |\n| *   * |\n---------\n';
+const D6_5 = '---------\n| *   * |\n|   *   |\n| *   * |\n---------\n';
+const D6_6 = '---------\n| *   * |\n| *   * |\n| *   * |\n---------\n';
+
+const getRend6 = () => Math.ceil( Math.random() * 6 );
+
+let n = +prompt('сколько кубиков бросаем:');
+console.clear();
+while(n > 0);
+let d = getRend6;
+
+
+
+
